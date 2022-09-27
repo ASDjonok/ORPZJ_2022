@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
+        final int a;
+        System.out.println("ASD");
+        a = 1;
+//        a = 2;
         /*System.out.println("Hello world!");
         int a = (int) 0xF000000001L;
         System.out.println(a);
@@ -7,7 +11,7 @@ public class Main {
 
 //        System.out.println(1/2);
 
-//       todo arithmetic overflow
+//       arithmetic overflow
         byte i;
         for (i = 1; i > 0; i++) {
             System.out.println(i);
@@ -23,5 +27,7 @@ public class Main {
         System.out.println(c4);
         System.out.println((int)c4);
         System.out.println(c);
+
+        System.out.println(0/-0.0);
     }
 }
