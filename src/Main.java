@@ -28,6 +28,6 @@ public class Main {
         System.out.println((int)c4);
         System.out.println(c);
 
-        System.out.println(0/-0.0);
+        System.out.println(0/-0);
     }
 }
