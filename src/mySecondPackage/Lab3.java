@@ -1,16 +1,41 @@
+package mySecondPackage;
+
+import java.util.Arrays;
+
 public class Lab3 {
+
+    /*{
+
+    }*/
+
+    protected static void myMethod(int a) {
+        String s = "ASD";
+        myMethod(a + 1);
+    }
+
     public static void main(String[] args) {
-        String s = "AS";
+//        System.out.println(Arrays.toString(mySecondPackage.Lab3.class.getDeclaredMethods()));
+        /*new mySecondPackage.Lab3().*/myMethod(1);
+        /*String s1 = "ASD";
+        String s2 = "ASD";
+        System.out.println(s1 == s2);
+        s1 += "F";
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s1 == s2);*/
+
+
+        /*String s = "AS";
         s += "D";
         System.out.println(s);
 
         String s4 = s;
         System.out.println(s == s4);
         s4 += "F";
-        /*System.out.println("s = " + s);
+        *//*System.out.println("s = " + s);
         System.out.println("s4 = " + s4);
-        System.out.println("s4 == s: " + (s4 == s));*/
-        System.out.println("s4 == s: " + s4 == s);
+        System.out.println("s4 == s: " + (s4 == s));*//*
+        System.out.println("s4 == s: " + s4 == s);*/
 
         /*String s1 = new String("ASD");
         String s2 = new String("ASD");*/
